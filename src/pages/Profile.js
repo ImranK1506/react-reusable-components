@@ -42,7 +42,7 @@ function Profile({ userName }) {
 
             <li>
               <span>repos_url:</span>
-              <Link url={profile.repors_url}
+              <Link url={profile.repos_url}
                     title={profile.repos_url} />
             </li>
             <li><span>name: </span>
