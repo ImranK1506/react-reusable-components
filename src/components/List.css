@@ -1,0 +1,20 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul > li {
+    justify-content: space-between;
+}
+ul > li > span {
+    font-weight: 600;
+}
+
+.Profile-container {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.List-container {
+    width: 50%;
+    margin: 10px auto;
+}
