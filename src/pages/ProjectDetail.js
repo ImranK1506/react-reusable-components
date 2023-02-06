@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-function Project({ userName }) {
+
+function ProjectDetail({ userName }) {
   const [loading, setLoading] = useState(false);
   const [project, setProject] = useState([]);
+  // get name form url param
   const { name } = useParams();
 
   useEffect(() => {
@@ -34,4 +36,4 @@ function Project({ userName }) {
   )
 }
 
-export default Project;
+export default ProjectDetail;
