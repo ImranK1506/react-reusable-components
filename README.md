@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/React-18.2.0-%2361DAFB) ![](https://img.shields.io/badge/Yarn-1.22.19-%232C8EBB)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
